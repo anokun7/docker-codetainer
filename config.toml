@@ -1,0 +1,3 @@
+# Docker API server and port
+DockerServer = "localhost"
+DockerPort = 2375
