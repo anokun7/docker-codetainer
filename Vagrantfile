@@ -26,6 +26,7 @@ Vagrant.configure(2) do |config|
     docker pull phusion/baseimage &
     docker pull nginx &
   # Install often used tools for troubleshooting etc.
+    apt-get install -y git
     apt-get install -y git telnet strace nc lynx &
   # Install Golang
     cd /usr/local
